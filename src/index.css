@@ -1,6 +1,16 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Work+Sans:wght@300;400;600;700&display=swap');
+
 :root{
-  --main-color: ##74C69D;
+  --main-color: #74C69D;
   --secondary-color: #212529;
-  --secondary2-color: ##FFFFFF;
+  --secondary2-color: #FFFFFF;
+  --opacity-color: #FFFFFFBF;
+  --opacity-color2: #21252980;
+}
+body {
+  font-family: 'Crimson', 'Work Sans', sans-serif; 
+}
+*{
+  /* border: 1px solid red;    */
 }
