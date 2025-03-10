@@ -2,58 +2,58 @@
   "projects": [
     {
       "id": "1",
-      "title": "First Project",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere vero consectetur itaque molestiae perspiciatis porro alias iure exercitationem quibusdam?",
-      "link": "https://modest-ramanujan-f625b4.netlify.app/",
+      "title": "Landing Page Design",
+      "description": "A modern landing page design with a clean UI and user-friendly navigation.",
+      "link": "https://github.com/Elsheshtawey1",
       "photo": "/images/website-1.webp"
     },
     {
       "id": "2",
-      "title": "Second Project",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere vero consectetur itaque molestiae perspiciatis porro alias iure exercitationem quibusdam?",
-      "link": "https://modest-ramanujan-f625b4.netlify.app/",
+      "title": "Web Design Landing Page",
+      "description": "An engaging web design landing page for digital services and agencies.",
+      "link": "https://www.linkedin.com/in/mohamed-elsheshtawey/",
       "photo": "/images/website-2.webp"
     },
     {
       "id": "3",
-      "title": "Third Project",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere vero consectetur itaque molestiae perspiciatis porro alias iure exercitationem quibusdam?",
-      "link": "https://modest-ramanujan-f625b4.netlify.app/",
+      "title": "Rocket Your Business",
+      "description": "A dynamic and futuristic business landing page with a rocket theme.",
+      "link": "https://github.com/Elsheshtawey1",
       "photo": "/images/website-3.webp"
     },
     {
       "id": "4",
-      "title": "Fourth Project",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere vero consectetur itaque molestiae perspiciatis porro alias iure exercitationem quibusdam?",
-      "link": "https://modest-ramanujan-f625b4.netlify.app/",
+      "title": "Shopping Page",
+      "description": "An eCommerce landing page with a modern and minimalistic design.",
+      "link": "https://www.linkedin.com/in/mohamed-elsheshtawey/",
       "photo": "/images/website-4.webp"
     },
     {
       "id": "5",
-      "title": "Fifth Project",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere vero consectetur itaque molestiae perspiciatis porro alias iure exercitationem quibusdam?",
-      "link": "https://modest-ramanujan-f625b4.netlify.app/",
+      "title": "Geometric Shapes",
+      "description": "A creative landing page featuring geometric shapes and bold colors.",
+      "link": "https://github.com/Elsheshtawey1",
       "photo": "/images/website-5.webp"
     },
     {
       "id": "6",
-      "title": "Sixth Project",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere vero consectetur itaque molestiae perspiciatis porro alias iure exercitationem quibusdam?",
-      "link": "https://modest-ramanujan-f625b4.netlify.app/",
+      "title": "Trick or Treat",
+      "description": "A Halloween-themed landing page for events and holiday promotions.",
+      "link": "https://www.linkedin.com/in/mohamed-elsheshtawey/",
       "photo": "/images/website-6.webp"
     },
     {
       "id": "7",
-      "title": "Seventh Project",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere vero consectetur itaque molestiae perspiciatis porro alias iure exercitationem quibusdam?",
-      "link": "https://modest-ramanujan-f625b4.netlify.app/",
+      "title": "Halloween Landing Page",
+      "description": "A spooky Halloween landing page with a dark and mysterious aesthetic.",
+      "link": "https://github.com/Elsheshtawey1",
       "photo": "/images/website-7.webp"
     },
     {
       "id": "8",
-      "title": "Eighth Project",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere vero consectetur itaque molestiae perspiciatis porro alias iure exercitationem quibusdam?",
-      "link": "https://modest-ramanujan-f625b4.netlify.app/",
+      "title": "Virtual Reality Experience",
+      "description": "A cutting-edge VR landing page showcasing immersive experiences.",
+      "link": "https://www.linkedin.com/in/mohamed-elsheshtawey/",
       "photo": "/images/website-8.webp"
     }
   ]
