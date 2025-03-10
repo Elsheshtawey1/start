@@ -8,6 +8,7 @@ import Portfolio from "./Portfolio";
 import Services from "./Services";
 import Contact from "./Contact";
 import UPpage from "./UpPage";
+import { Analytics } from "@vercel/analytics/react";
 
 const pageVariants = {
   initial: {
