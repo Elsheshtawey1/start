@@ -15,8 +15,8 @@ function Sec5() {
       >
         {[
           { name: "Pag Legend", role: "SEO", img: "./images/talent-1.webp" },
-          { name: "Richard Guerra", role: "STO", img: "/publ./images/talent-2.webp" },
-          { name: "Alexandra Stolz", role: "DESIGNER", img: "/publ./images/talent-3.webp" },
+          { name: "Richard Guerra", role: "STO", img: "./images/talent-2.webp" },
+          { name: "Alexandra Stolz", role: "DESIGNER", img: "./images/talent-3.webp" },
           { name: "Janet Bray", role: "DEVELOPER", img: "./images/talent-4.webp" },
         ].map((member, index) => (
           <div
