@@ -13,7 +13,7 @@ function Sec4() {
         </button>
       </div>
       <div className="img w-1/2 max-w-lg h-auto flex justify-center items-center max-[700px]:w-full">
-        <img className="w-full max-[700px]:w-4/5   max-[700px]:h-auto object-contain" src="/public/images/group-2.webp" alt="group" />
+        <img className="w-full max-[700px]:w-4/5   max-[700px]:h-auto object-contain" src="./images/group-2.webp" alt="group" />
       </div>
     </section>
   );

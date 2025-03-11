@@ -5,7 +5,7 @@ function Sec3() {
   return (
     <section className="mx-auto gap-5 mt-18 lg:w-5/7 pt-3.5 px-25 max-[700px]:px-6 w-full max-w-5x2 h-auto flex justify-between items-center max-[785px]:flex-wrap max-[785px]:justify-center max-[700px]:flex-col max-[700px]:w-full text-center">
       <div className="img w-1/2 max-w-lg h-auto flex justify-center items-center max-[700px]:w-full">
-        <img className="w-full max-[700px]:w-4/5   max-[700px]:h-auto object-contain" src="/public/images/group-1.webp" alt="group" />
+        <img className="w-full max-[700px]:w-4/5   max-[700px]:h-auto object-contain" src="./images/group-1.webp" alt="group" />
       </div>
 
       <div className="tit pt-8 flex flex-col justify-center items-center w-1/2 max-w-lg h-auto max-[700px]:w-full max-[700px]:text-center max-[785px]:w-full">

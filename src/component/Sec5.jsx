@@ -14,10 +14,10 @@ function Sec5() {
                       max-[900px]:grid-cols-2 max-[1100px]:grid-cols-3 min-[1140px]:grid-cols-4"
       >
         {[
-          { name: "Pag Legend", role: "SEO", img: "/public/images/talent-1.webp" },
-          { name: "Richard Guerra", role: "STO", img: "/public/images/talent-2.webp" },
-          { name: "Alexandra Stolz", role: "DESIGNER", img: "/public/images/talent-3.webp" },
-          { name: "Janet Bray", role: "DEVELOPER", img: "/public/images/talent-4.webp" },
+          { name: "Pag Legend", role: "SEO", img: "./images/talent-1.webp" },
+          { name: "Richard Guerra", role: "STO", img: "/publ./images/talent-2.webp" },
+          { name: "Alexandra Stolz", role: "DESIGNER", img: "/publ./images/talent-3.webp" },
+          { name: "Janet Bray", role: "DEVELOPER", img: "./images/talent-4.webp" },
         ].map((member, index) => (
           <div
             key={index}
