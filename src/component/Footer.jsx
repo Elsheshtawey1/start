@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaPinterest, FaTiktok, FaWhatsapp,
 
       function Footer() {
   return (
-    <footer className="bg-[var(--main-color)] gap-2 mt-14 py-4 px-23 flex justify-between items-center max-[700px]:flex-col max-[700px]:text-center max-[700px]:py-4">
+    <footer className="bg-[var(--main-color)] gap-2 mt-14 py-4 px-23 flex justify-between items-center max-[700px]:flex-col max-[700px]:text-center max-[700px]:py-4 ">
       <div className="icon flex gap-4 text-white text-xl max-[700px]:mb-4">
         <a href="https://www.linkedin.com/in/mohamed-elsheshtawey/" target="_blank" rel="noopener noreferrer" className="transition duration-300 hover:text-blue-600 hover:scale-110">
           <FaFacebookF />

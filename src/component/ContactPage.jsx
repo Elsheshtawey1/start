@@ -1,47 +1,54 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function ContactPage() {
   return (
-    <section className="py-12 px-25 max-[700px]:px-2  mx-auto">
+    <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="py-12 px-25 max-[700px]:px-2 mx-auto">
       <div className="text-center mb-10">
-        <h2 className="text-4xl text[var(--secondary-color)] font-bold">Contact Us</h2>
+        <motion.h2 initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="text-4xl text[var(--secondary-color)] font-bold">
+          Contact Us
+        </motion.h2>
         <p className="text-lg text-[var(--opacity-color2)] mt-2">Lorem ipsum, dolor sit amet consectetur adipiscing elit.</p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-8 items-center">
-        <div className="bg-white shadow-lg rounded-lg p-8 border border-gray-200">
+      <div className="grid md:grid-cols-2 gap-8 items-center mb-10">
+        <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }} className="bg-white shadow-lg rounded-lg p-8 border border-gray-200">
           <form className="space-y-4">
-            <div>
+            <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}>
               <label className="block text-[var(--opacity-color2)] font-medium">Name</label>
               <input
                 type="text"
                 className="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:text-[var(--main-color)] focus:outline-none transition"
                 placeholder="Enter your name"
               />
-            </div>
-            <div>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.4 }}>
               <label className="block text-[var(--opacity-color2)] font-medium">Email</label>
               <input
                 type="email"
                 className="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:text-[var(--main-color)] focus:outline-none transition"
                 placeholder="Enter your email"
               />
-            </div>
-            <div>
-              <label className="block text-[var(--opacity-color2)]font-medium">Message</label>
+            </motion.div>
+            <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.6 }}>
+              <label className="block text-[var(--opacity-color2)] font-medium">Message</label>
               <textarea
                 rows="4"
                 className="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:text-[var(--main-color)] focus:outline-none transition"
                 placeholder="Enter your message"
               ></textarea>
-            </div>
-            <button className="bg-[var(--secondary-color)] w-35 items-center mx-auto flex justify-center text-[var(--secondary2-color)] rounded-md py-3 px-4 my-5 hover:bg-[var(--main-color)] hover:text-[var(--secondary2-color)] transition duration-300 cursor-pointer max-[700px]:text-sm max-[700px]:mx-auto max-[800px]:mx-auto max-[800px]:mb-2 ">
+            </motion.div>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-[var(--secondary-color)] w-35 items-center mx-auto flex justify-center text-[var(--secondary2-color)] rounded-md py-3 px-4 my-5 hover:bg-[var(--main-color)] hover:text-[var(--secondary2-color)] transition duration-300 cursor-pointer max-[700px]:text-sm max-[700px]:mx-auto max-[800px]:mx-auto max-[800px]:mb-2"
+            >
               Submit
-            </button>
+            </motion.button>
           </form>
-        </div>
+        </motion.div>
 
-        <div className="rounded-lg overflow-hidden shadow-lg border border-gray-200 select-none">
+        <motion.div initial={{ opacity: 0, x: 50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }} className="rounded-lg overflow-hidden shadow-lg border border-gray-200 select-none">
           <iframe
             title="Google Maps"
             className="w-full h-80 rounded-lg"
@@ -50,9 +57,9 @@ function ContactPage() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
+        </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
