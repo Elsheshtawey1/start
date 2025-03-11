@@ -18,7 +18,7 @@ function HeroSec() {
         </button>
       </div>
       <div className="img flex justify-center items-center max-[700px]:w-full">
-        <img className="w-155 h-79 max-[700px]:w-80 max-[700px]:h-50" src="/public/images/hero.webp" alt="hero" />
+        <img className="w-155 h-79 max-[700px]:w-80 max-[700px]:h-50" src="./images/hero.webp" alt="hero" />
       </div>
     </main>
   );
